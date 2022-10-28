@@ -1,6 +1,6 @@
 <?php
     require "model/database.php";
-    require "controller/error.php";
+    require "controller/404.php";
 
     function get_category($category_id) {
     global $database;
