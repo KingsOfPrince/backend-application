@@ -25,7 +25,7 @@
 		die();
 	}
 
-	require "controller/routes.php";
+	require "controller/endpoints.php";
 
 	$app->run();
 ?>
